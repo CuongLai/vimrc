@@ -11,9 +11,12 @@ Plug 'kaicataldo/material.vim'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'sonph/onehalf'
 Plug 'tyrannicaltoucan/vim-quantum'
-Plug 'pangloss/vim-javascript'
-Plug 'leafgarland/typescript-vim'
 Plug 'junegunn/fzf.vim'
+Plug 'mattn/emmet-vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'sheerun/vim-polyglot'
+Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-surround'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -24,6 +27,12 @@ call plug#end()
 "====================="
 "====== COLORS ======="
 "====================="
+
+" lightline configuration
+set laststatus=2
+let g:lightline = {
+      \ 'colorscheme': 'seoul256',
+      \ }
 
 set background=dark
 set termguicolors
