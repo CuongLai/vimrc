@@ -17,6 +17,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
+Plug 'scrooloose/nerdtree'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -50,6 +53,9 @@ colorscheme palenight
 
 " NT will split tab in Explorer mode
 :command NT tab split | Ex
+
+" NerdTree Ctrl + o
+map <C-o> :NERDTreeToggle<CR>
 
 "====================="
 "=== LINE NUMBERS ===="
