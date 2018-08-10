@@ -34,8 +34,8 @@ call plug#end()
 " lightline configuration
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'seoul256',
-      \ }
+     \ 'colorscheme': 'seoul256',
+     \ }
 
 set background=dark
 set termguicolors
@@ -71,6 +71,6 @@ filetype plugin indent on
 " show existing tab with 4 spaces width
 set tabstop=4
 " when indenting with '>', use 4 spaces width
-set shiftwidth=4
+set shiftwidth=2
 " On pressing tab, insert 4 spaces
 set expandtab
